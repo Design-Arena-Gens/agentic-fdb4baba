@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-midnight text-white antialiased;
+}
+
+a {
+  @apply text-auric underline underline-offset-4 hover:text-auricDark transition-colors;
+}
